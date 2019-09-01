@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-
+export MAVEN_HOME="/home/srikanth/soft/maven3.6"
+export PATH="$PATH:$MAVEN_HOME/bin"
 echo 'The following Maven command installs your Maven-built Java application'
 echo 'into the local Maven repository, which will ultimately be stored in'
 echo 'Jenkins''s local Maven repository (and the "maven-repository" Docker data'
